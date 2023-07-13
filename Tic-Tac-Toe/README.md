@@ -19,13 +19,6 @@ To run the program, make sure you have Python installed on your system. You can 
 3. The computer will automatically take turns after the user.
 4. To make a move, enter the number corresponding to the position on the grid.
 5. The positions are numbered from 1 to 9, as shown below:
-
-1 | 2 | 3
---+---+--
-4 | 5 | 6
---+---+--
-7 | 8 | 9
-
 6. The game ends when there is a winner or a tie.
 7. A player wins if they have three markers in a row (horizontally, vertically, or diagonally).
 8. If all positions on the grid are filled and there is no winner, it's a tie.
