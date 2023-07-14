@@ -1,5 +1,4 @@
 import random
-
 board = [' ' for _ in range(9)]
 user_marker = ''
 computer_marker = ''
