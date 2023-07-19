@@ -20,10 +20,6 @@ Additionally, it would be beneficial to have a code editor or Integrated Develop
 3. Each project will have its folder with a separate README file providing detailed instructions and explanations for the project.
 4. Choose a project that interests you, read its README file, and start coding!
 
-## Contributing
-
-Contributions to this repository are more than welcome! If you have an interesting beginner-friendly Python project idea or have found a bug in an existing project, feel free to open an issue or submit a pull request. Please make sure to follow the guidelines for contributing outlined in the repository.
-
 ## About the Author
 
 I created this repository while learning Python. As I progress in my Python journey, I will continue to add more projects and improve existing ones. I hope these projects bring you as much joy and learning as they have brought me. If you have any questions or need assistance, don't hesitate to reach out to me through the repository. Let's learn and grow together in the world of Python!
