@@ -15,7 +15,7 @@ Additionally, it would be beneficial to have a code editor or Integrated Develop
 ## How to Use This Repository
 
 1. Clone the repository to your local machine using the following command:
-   `git clone https://github.com/your-username/beginner-level-python-scripting-projects.git`
+   `git clone https://github.com/your-username/beginner-level-python-projects.git`
 2. Navigate to the project directory and explore the projects available.
 3. Each project will have its folder with a separate README file providing detailed instructions and explanations for the project.
 4. Choose a project that interests you, read its README file, and start coding!
