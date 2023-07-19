@@ -1,6 +1,6 @@
 # Beginner Level Python Projects
 
-Welcome to the Beginner Level Python Scripting Projects repository! This repository is dedicated to housing a collection of small and enjoyable Python scripting tasks and projects tailored for beginners. Whether you're just starting your Python journey or looking to sharpen your skills, these fun projects will provide you with hands-on coding experience and help you grow as a Python programmer.
+Welcome to the Beginner Level Python Projects repository! This repository is dedicated to housing a collection of small and enjoyable Python tasks and projects tailored for beginners. Whether you're just starting your Python journey or looking to sharpen your skills, these fun projects will provide you with hands-on coding experience and help you grow as a Python programmer.
 
 ## Introduction
 
