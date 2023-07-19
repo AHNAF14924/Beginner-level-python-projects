@@ -1,6 +1,3 @@
-# Ahnaf Tahmid Zaman
-# ahnaftahmid14924@gmail.com
-
 import re
 
 
