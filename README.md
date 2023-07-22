@@ -1,5 +1,3 @@
-# Beginner Level Python Projects
-
 Welcome to the Beginner Level Python Projects repository! This repository is dedicated to housing a collection of small and enjoyable Python tasks and projects tailored for beginners. Whether you're just starting your Python journey or looking to sharpen your skills, these fun projects will provide you with hands-on coding experience and help you grow as a Python programmer.
 
 ## Introduction
@@ -23,4 +21,3 @@ Additionally, it would be beneficial to have a code editor or Integrated Develop
 ## About the Author
 
 I created this repository while learning Python. As I progress in my Python journey, I will continue to add more projects and improve existing ones. I hope these projects bring you as much joy and learning as they have brought me. If you have any questions or need assistance, don't hesitate to reach out to me through the repository. Let's learn and grow together in the world of Python!
-# Beginner-level-python-projects
