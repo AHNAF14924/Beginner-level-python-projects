@@ -1,52 +1,65 @@
-# Introduction
-The Product Purchase Management System is a Python program that allows users to browse through a list of products categorized in different sheets of an Excel file, add selected products to their cart, specify quantities, and finally generate an invoice upon checkout.
+## Overview
+
+This program is designed to provide a command-line interface for managing a product purchase system. It allows users to select products from an Excel spreadsheet, add them to a shopping cart, and generate an invoice in PDF format upon checkout. The program utilizes the openpyxl library to read Excel files, the tabulate library to display data in a tabular format, and the pdfkit library to generate PDF documents.
 
 ## Prerequisites
-1. Python 3.x installed.
-2. Required libraries: `openpyxl`, `tabulate`. You can install these libraries using the following commands:
+
+- Python 3.x installed
+- Required Python libraries: `openpyxl`, `tabulate`, `pdfkit`
+  Install them from the **requirements.txt** file:
+
 ```
-pip install openpyxl
-pip install tabulate
+pip install -r requirements.txt
 ```
+
 ## Usage
-1.**Program Execution**: Run the program by executing the Python script.
+
+1. Ensure the Excel file named **products_list.xlsx** is present in the same directory as the program.
+2. Run the program using the command:
+
 ```
-python app.py
+app.py
 ```
-2.**Main Menu**: The program will display the main menu with a list of available product categories.
 
-3.**Product Selection**:
+## Program Flow
 
-Select a product category by entering the corresponding number.
-View the list of products in the selected category.
-Enter the number of the desired product to add it to the cart.
-Specify the quantity for the selected product.
+1. Loading Excel File
 
-4.**Cart Management**:
+- The program starts by loading the Excel file `products_list.xlsx` using the `openpyxl` library.
 
-The selected products and their quantities will be added to the cart.
-The total price for each selected product will be displayed.
+2. Main Functionality
 
-6.**Checkout**:
+- Users are presented with a list of product categories (sheets in the Excel file).
+- They can choose a product category or proceed to checkout.
 
-To proceed to checkout, select the option to "Checkout" from the main menu.
-An invoice will be displayed with the product names, quantities, unit prices, and total prices.
-The grand total of the purchase will be calculated and shown.
+3. Display Product Options
 
-## Exiting the Program:
-After checkout, the program will display a thank you message and exit.
+- The available product categories are displayed, along with their corresponding indices.
 
-## Program Structure
-The program consists of the following components:
+4. Process Product Choice
 
-1.**Loading Excel File**: The program loads an Excel file named `products_list.xlsx`.
+- When a product category is selected, the program displays the products within that category in a tabular format using the `tabulate` library.
+- Users can choose a product by entering its number.
+- The selected product's details (name, price, etc.) are displayed.
+- Users enter the quantity they want to buy.
 
-2.**Loading Sheet Options**: The program loads available sheet names as product categories.
+5. Checkout
 
-3.**Display Product Options**: Displays a menu with available product categories for user selection.
+- Users can choose to proceed to checkout.
+- The program calculates the total price for each item in the shopping cart and generates an invoice in HTML format using `tabulate`.
+- The HTML invoice is converted into a PDF using the `pdfkit` library and saved as `invoice.pdf` in the program's directory.
+- The shopping cart is emptied.
 
-4.**Process Product Choice**: Processes the user's choice by displaying products, capturing user selections, and calculating prices.
+6. Termination
 
-5.**Checkout**: Generates an invoice based on the user's selections and calculates the grand total.
+- Users can exit the program after checkout.
 
-6.**Main Function (main)**: The main loop of the program where user interactions take place.
+## Notes
+
+- Ensure that the Excel file `products_list.xlsx` is correctly formatted with product information and category sheets.
+- The `tabulate` library is used for tabular data formatting in both the terminal and the invoice PDF.
+- The `pdfkit` library requires an external tool called wkhtmltopdf to be installed for PDF generation to work. Make sure it is installed and accessible.You can install wkhtmltopdf on your system using the following command:
+
+```
+sudo apt-get install wkhtmltopdf
+```
