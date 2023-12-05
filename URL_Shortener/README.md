@@ -62,3 +62,12 @@ python app.py
 This URL shortener program is a simple yet powerful tool that allows users to convert long URLs into shorter, more shareable links. By leveraging the Cutt.ly API and the **requests** library in Python, the program interacts with the URL shortening service and handles various scenarios gracefully, providing meaningful error messages to the user.
 
 Feel free to use, modify, and extend this program according to your needs. Happy shortening!
+## Author
+**Ahnaf Tahmid Zaman**
+
+<a href="https://www.linkedin.com/in/ahnaf-tahmid-zaman/">
+    <img src="https://dl.dropboxusercontent.com/scl/fi/6wwu1stsm3hki3vsxl5c0/linkedin.png?rlkey=4nfdo2u3tmoaxo9xwkxh6t5to&dl=0" alt="Linkedin" width="67px">
+</a>
+<a href="https://github.com/AHNAF14924">
+    <img src="https://dl.dropboxusercontent.com/scl/fi/bys8mwgtmsjobu6uk0d15/GitHub-Symbol-2149346605.png?rlkey=memfqto1ygr91gja8t3cpwwbx&dl=0" alt="GitHub" width="100px">
+</a>

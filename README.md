@@ -22,6 +22,12 @@ git clone https://github.com/your-username/Beginner-level-python-projects.git
 3. Each project will have its folder with a separate README file providing detailed instructions and explanations for the project.
 4. Choose a project that interests you, read its README file, and start coding!
 
-## About the Author
+## Author
+**Ahnaf Tahmid Zaman**
 
-I created this repository while learning Python. As I progress in my Python journey, I will continue to add more projects and improve existing ones. I hope these projects bring you as much joy and learning as they have brought me. If you have any questions or need assistance, don't hesitate to reach out to me through the repository. Let's learn and grow together in the world of Python!
+<a href="https://www.linkedin.com/in/ahnaf-tahmid-zaman/">
+    <img src="https://dl.dropboxusercontent.com/scl/fi/6wwu1stsm3hki3vsxl5c0/linkedin.png?rlkey=4nfdo2u3tmoaxo9xwkxh6t5to&dl=0" alt="Linkedin" width="67px">
+</a>
+<a href="https://github.com/AHNAF14924">
+    <img src="https://dl.dropboxusercontent.com/scl/fi/bys8mwgtmsjobu6uk0d15/GitHub-Symbol-2149346605.png?rlkey=memfqto1ygr91gja8t3cpwwbx&dl=0" alt="GitHub" width="100px">
+</a>
